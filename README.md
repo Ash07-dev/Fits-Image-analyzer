@@ -1,11 +1,18 @@
 # Fits-Image-analyzer
-A program written to convert Fits data files to JPG image for better visual understanding.
+A Python project that reads astronomical FITS files, processes their pixel data, and converts the observations into standard image formats for visualization.
 
 ## Pre-Requisites:
 - python 3.14
 - astropy
 - matplotlib
 - Horsehead.fits (from nasa's website)
+
+# Features
+- Read FITS files using Astropy
+- Extract image data
+- Normalize pixel intensities
+- Convert astronomical data into JPG/PNG
+- Visualize observations using Matplotlib
 
 ## Changing the Output colour:
 visit - https://matplotlib.org/stable/users/explain/colors/colormaps.html
